@@ -27,7 +27,6 @@ export const ContactForm = () => {
     }
   };
 
-  // ;
   return (
     <form onSubmit={addContacts} className={FormCss.form}>
       <div className={FormCss.input__contacts}>
